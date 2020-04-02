@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /page4688155.html
+Disallow: /discount/studio-40off/
+Disallow: /page4760309.html
+Disallow: /epochta-mailer
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://epochta.ru/sitemap.xml
+Host: epochta.ru

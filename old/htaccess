@@ -1,0 +1,36 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page6163134.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^discounts/2-in-1-sale/$ page5648010.html [NC]
+RewriteRule ^discounts/2-in-1-sale//$ page5648010.html [NC]
+
+RewriteRule ^discount/studio-40off/$ page4688155.html [NC]
+RewriteRule ^discount/studio-40off//$ page4688155.html [NC]
+
+RewriteRule ^mailer$ page5120230.html [NC]
+RewriteRule ^mailer/$ page5120230.html [NC]
+
+RewriteRule ^epochta-mailer$ page4760309.html [NC]
+RewriteRule ^epochta-mailer/$ page4760309.html [NC]
+
+RewriteRule ^checkout/thanks-for-payment/$ page6193546.html [NC]
+RewriteRule ^checkout/thanks-for-payment//$ page6193546.html [NC]
+
+RewriteRule ^discounts/extractor-and-verifier/$ page6528611.html [NC]
+RewriteRule ^discounts/extractor-and-verifier//$ page6528611.html [NC]
+
+RewriteRule ^spring-sale$ page10118800.html [NC]
+RewriteRule ^spring-sale/$ page10118800.html [NC]
+
+RewriteRule ^spring-sale/black$ page10147122.html [NC]
+RewriteRule ^spring-sale/black/$ page10147122.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6533-6563-4439-b336-333938386137/favicon.ico [R=302,L]
+
