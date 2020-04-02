@@ -154,9 +154,9 @@ img {
     height: 146px;
 }
 .ss-discount:hover .ss-discount__text{
-    -webkit-animation: spin 2s linear;
-    -o-animation: spin 2s linear;
-    animation: spin 2s linear;
+    -webkit-animation: spin 4s linear;
+    -o-animation: spin 4s linear;
+    animation: spin 4s linear;
 }
 @keyframes spin {
     0%{
